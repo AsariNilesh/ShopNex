@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNex - Online Shopping</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="page-name">ShopNex</h1>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products...">
+        </div>
+
+        <!-- Cart -->
+        <div class="cart-box" id="cart-box">
+            <h1 id="cart">🛒</h1>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+     <h2>Fashion That Speaks for You</h2>
+     <p>Explore our latest collection of T-shirts, sarees, and shoes.</p>
+    </section>
+
+
+    <!-- Products -->
+    <section class="products">
+
+        <div class="product-card">
+            <img src="img/q (21).jpeg" alt="Close up of a brown plain cotton T-shirt laid flat on a neutral studio background with soft lighting">
+            <h3>Brown plain t-shirt</h3>
+            <p>₹599</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.4 · 156)</span>
+            </div>
+            <button class="add-cart" data-id="p1" data-name="Brown Plain T-Shirt" data-price="599">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img/q (17).jpeg" alt="Close up of a premium cotton black T-shirt with a clean minimal look on a plain background">
+            <h3>Premium Cotton Black T-Shirt</h3>
+            <p>₹299</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.7 · 245)</span>
+            </div>
+            <button class="add-cart" data-id="p2" data-name="Premium Cotton Black T-Shirt" data-price="299">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img/q (18).jpeg" alt="Close up of a gray street style printed T-shirt displayed on a neutral studio background">
+            <h3>Street Style Printed T-Shirt</h3>
+            <p>₹399</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.3 · 128)</span>
+            </div>
+            <button class="add-cart" data-id="p3" data-name="Street Style Printed T-Shirt" data-price="399">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img/q (19).jpeg" alt="Close up of a crimson polo T-shirt on a plain background with a tailored polished look">
+            <h3>Crimson Polo T-Shirt</h3>
+            <p>₹455</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.6 · 189)</span>
+            </div>
+            <button class="add-cart" data-id="p4" data-name="Crimson Polo T-Shirt" data-price="455">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <!-- Saree Section -->
+    <section class="detail">
+        <h2 class="elegant">Elegant Women's Saree</h2>
+        <p class="description">
+            Beautiful and stylish saree made with premium-quality fabric.
+            Perfect for festivals, weddings, parties and special occasions.
+            Comfortable, elegant and designed to give you a graceful look.
+        </p>
+    </section>
+
+
+    <!-- More Products -->
+    <section class="products">
+
+        <div class="product-card">
+            <img src="img2/wtcz6_512.avif" alt="Close up of an elegant pink silk saree draped softly on a neutral studio background">
+            <h3>Elegant Pink Silk Saree</h3>
+            <p>₹599</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.8 · 267)</span>
+            </div>
+            <button class="add-cart" data-id="p5" data-name="Elegant Pink Silk Saree" data-price="599">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img2/jrz1d_512.avif" alt="Close up of a mauve georgette saree with flowing fabric shown against a simple studio backdrop">
+            <h3>Mauve Georgette Saree</h3>
+            <p>₹399</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.3 · 145)</span>
+            </div>
+            <button class="add-cart" data-id="p7" data-name="Mauve Georgette Saree" data-price="399">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img2/lwfoa_512.avif" alt="Close up of a dark maroon silk saree with rich fabric texture on a plain background">
+            <h3>Dark Maroon Silk Saree</h3>
+            <p>₹799</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.9 · 312)</span>
+            </div>
+            <button class="add-cart" data-id="p8" data-name="Dark Maroon Silk Saree" data-price="799">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img2/mpz9y_512.avif" alt="Close up of a dark grey chiffon saree with soft folds and a minimalist studio setting">
+            <h3>Dark Grey Chiffon Saree</h3>
+            <p>₹499</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.5 · 178)</span>
+            </div>
+            <button class="add-cart" data-id="p9" data-name="Dark Grey Chiffon Saree" data-price="499">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img2/oz3iu_512.avif" alt="Close up of a black saree with smooth fabric folds displayed on a plain background">
+            <h3>Black Saree</h3>
+            <p>₹399</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.2 · 98)</span>
+            </div>
+            <button class="add-cart" data-id="p10" data-name="Black Saree" data-price="399">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="img2/pvx9e_512.avif" alt="Close up of a designer saree with elegant draping and a refined fashion focused studio background">
+            <h3>Designer Saree</h3>
+            <p>₹799</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.6 · 234)</span>
+            </div>
+            <button class="add-cart" data-id="p11" data-name="Designer Saree" data-price="799">Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="img2/grey-tiedye-saree.avif" alt="Close up of a grey tie dye printed saree with colorful patterned fabric and a simple studio backdrop">
+            <h3>Grey Tie-Dye Printed Saree</h3>
+            <p>₹599</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐</span>
+                <span class="review-count">(4.4 · 167)</span>
+            </div>
+            <button class="add-cart" data-id="p34" data-name="Grey Tie-Dye Printed Saree" data-price="599">Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="img2/beige-green-silk-saree.avif" alt="Close up of a beige and green silk saree with soft shine and a neutral studio background">
+            <h3>Beige & Green Silk Saree</h3>
+            <p>₹899</p>
+            <div class="rating">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="review-count">(4.7 · 198)</span>
+            </div>
+            <button class="add-cart" data-id="p35" data-name="Beige & Green Silk Saree" data-price="899">Add to Cart</button>
+        </div>
+    </section>
+    
+    <!-- Shoes Section Title -->
+<section class="detail">
+    <h2 class="elegant">Trendy Footwear Collection</h2>
+    <p class="description">
+        Step up your style with our premium collection of sports shoes,
+        sneakers, and formal footwear. Comfortable, durable, and designed
+        for every occasion.
+    </p>
+</section>
+    
+<!-- Shoes Products -->
+<section class="products">
+
+    <div class="product-card">
+        <img src="img/grey-orange-sports-shoes.jpeg" alt="Grey Orange Sports Shoes">
+        <h3>Grey Orange Sports Shoes</h3>
+        <p>₹899</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span class="review-count">(4.8 · 245)</span>
+        </div>
+        <button class="add-cart" data-id="p12" data-name="Grey Orange Sports Shoes" data-price="899">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/orange-canvas-sneakers.jpeg" alt="Close up of orange canvas sneakers with a casual look and simple studio setting">
+        <h3>Orange Canvas Sneakers</h3>
+        <p>₹499</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐</span>
+            <span class="review-count">(4.3 · 128)</span>
+        </div>
+        <button class="add-cart" data-id="p13" data-name="Orange Canvas Sneakers" data-price="499">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/colorful-running-shoes.jpeg" alt="Close up of colorful running shoes with bright accents on a plain background">
+        <h3>Colorful Running Shoes</h3>
+        <p>₹799</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span class="review-count">(4.7 · 189)</span>
+        </div>
+        <button class="add-cart" data-id="p14" data-name="Colorful Running Shoes" data-price="799">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/neon-green-running-shoes.jpeg" alt="Close up of neon green running shoes with a modern athletic design against a clean background">
+        <h3>Neon Green Running Shoes</h3>
+        <p>₹999</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐</span>
+            <span class="review-count">(4.4 · 156)</span>
+        </div>
+        <button class="add-cart" data-id="p15" data-name="Neon Green Running Shoes" data-price="999">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/brown-leather-formal-shoes.jpeg" alt="Close up of brown leather formal shoes with polished styling on a neutral studio background">
+        <h3>Brown Leather Formal Shoes</h3>
+        <p>₹1299</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span class="review-count">(4.9 · 312)</span>
+        </div>
+        <button class="add-cart" data-id="p16" data-name="Brown Leather Formal Shoes" data-price="1299">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/blue-sports-shoes.jpeg" alt="Close up of blue sports shoes with a sporty silhouette displayed on a plain background">
+        <h3>Blue Sports Shoes</h3>
+        <p>₹799</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐</span>
+            <span class="review-count">(4.2 · 98)</span>
+        </div>
+        <button class="add-cart" data-id="p17" data-name="Blue Sports Shoes" data-price="799">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/black-converse-sneakers.jpeg" alt="Close up of black converse sneakers with a classic casual style on a simple studio backdrop">
+        <h3>Black Converse Sneakers</h3>
+        <p>₹599</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span class="review-count">(4.6 · 267)</span>
+        </div>
+        <button class="add-cart" data-id="p18" data-name="Black Converse Sneakers" data-price="599">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/blue-high-top-sneakers.jpeg" alt="Close up of blue high top sneakers with a trendy silhouette on a neutral studio background">
+        <h3>Blue High-Top Sneakers</h3>
+        <p>₹699</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐</span>
+            <span class="review-count">(4.5 · 178)</span>
+        </div>
+        <button class="add-cart" data-id="p20" data-name="Blue High-Top Sneakers" data-price="699">
+            Add to Cart
+        </button>
+    </div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Your one-stop destination for online shopping</p>
+        <div class="footer-links">
+            <a href="index.html" class="h">Home</a>
+            <a href="about.html" class="h">About</a>
+            <a href="contact.html" class="h">Contact</a>
+        </div>
+        <p>© 2026 ShopNex. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
