@@ -73,7 +73,7 @@ ShopNex/
 
 ## 🚀 Live Demo
 
-👉 [View Live Website](https://AsariNilesh.github.io/ShopNex/)
+👉 [View Live Website](https://shop-nex-theta.vercel.app/)
 
 ---
 
